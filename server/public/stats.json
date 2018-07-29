@@ -2,12 +2,12 @@
   "errors": [],
   "warnings": [],
   "version": "3.11.0",
-  "hash": "47c98c1ab1de894b4b38",
-  "time": 16862,
+  "hash": "bdccbc4be615df3eaf63",
+  "time": 15595,
   "publicPath": "",
   "assetsByChunkName": {
     "polyfills": "polyfills.515ed9df1f4876ab6cb6.bundle.js",
-    "main": "main.e49407ca47ee9abd6bc2.bundle.js",
+    "main": "main.bebd0915de22a8eab166.bundle.js",
     "styles": "styles.41c28fa20348c00739e6.bundle.css",
     "inline": "inline.318b50c57b4eba3d437b.bundle.js"
   },
@@ -399,8 +399,8 @@
       "emitted": true
     },
     {
-      "name": "main.e49407ca47ee9abd6bc2.bundle.js",
-      "size": 253605,
+      "name": "main.bebd0915de22a8eab166.bundle.js",
+      "size": 253678,
       "chunks": [
         1
       ],
@@ -854,7 +854,7 @@
       ],
       "assets": [
         "inline.318b50c57b4eba3d437b.bundle.js",
-        "main.e49407ca47ee9abd6bc2.bundle.js"
+        "main.bebd0915de22a8eab166.bundle.js"
       ],
       "isOverSizeLimit": true
     },
@@ -1653,13 +1653,22 @@
             0
           ],
           "assets": [],
-          "issuer": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.define-metadata.js",
-          "issuerId": "yJ2x",
-          "issuerName": "./node_modules/core-js/modules/es7.reflect.define-metadata.js",
+          "issuer": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+          "issuerId": "3q4u",
+          "issuerName": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
+            {
+              "moduleId": "3q4u",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+              "module": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+              "moduleName": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+              "type": "cjs require",
+              "userRequest": "./_an-object",
+              "loc": "2:15-38"
+            },
             {
               "moduleId": "yJ2x",
               "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.define-metadata.js",
@@ -1670,10 +1679,10 @@
               "loc": "2:15-38"
             },
             {
-              "moduleId": "3q4u",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.delete-metadata.js",
-              "module": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
-              "moduleName": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+              "moduleId": "NHaJ",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata.js",
+              "module": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
+              "moduleName": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
               "type": "cjs require",
               "userRequest": "./_an-object",
               "loc": "2:15-38"
@@ -1688,10 +1697,10 @@
               "loc": "4:15-38"
             },
             {
-              "moduleId": "NHaJ",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata.js",
-              "module": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
-              "moduleName": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
+              "moduleId": "zZHq",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
+              "module": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
+              "moduleName": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
               "type": "cjs require",
               "userRequest": "./_an-object",
               "loc": "2:15-38"
@@ -1706,6 +1715,15 @@
               "loc": "2:15-38"
             },
             {
+              "moduleId": "8WbS",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-metadata.js",
+              "module": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
+              "moduleName": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
+              "type": "cjs require",
+              "userRequest": "./_an-object",
+              "loc": "2:15-38"
+            },
+            {
               "moduleId": "yOtE",
               "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
               "module": "./node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
@@ -1715,28 +1733,10 @@
               "loc": "2:15-38"
             },
             {
-              "moduleId": "zZHq",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
-              "module": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
-              "moduleName": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
-              "type": "cjs require",
-              "userRequest": "./_an-object",
-              "loc": "2:15-38"
-            },
-            {
               "moduleId": "EZ+5",
               "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.metadata.js",
               "module": "./node_modules/core-js/modules/es7.reflect.metadata.js",
               "moduleName": "./node_modules/core-js/modules/es7.reflect.metadata.js",
-              "type": "cjs require",
-              "userRequest": "./_an-object",
-              "loc": "2:15-38"
-            },
-            {
-              "moduleId": "8WbS",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-metadata.js",
-              "module": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
-              "moduleName": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
               "type": "cjs require",
               "userRequest": "./_an-object",
               "loc": "2:15-38"
@@ -2172,22 +2172,13 @@
             0
           ],
           "assets": [],
-          "issuer": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
-          "issuerId": "v3hU",
-          "issuerName": "./node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
+          "issuer": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata.js",
+          "issuerId": "NHaJ",
+          "issuerName": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
-            {
-              "moduleId": "v3hU",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
-              "module": "./node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
-              "moduleName": "./node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
-              "type": "cjs require",
-              "userRequest": "./_object-gpo",
-              "loc": "5:21-45"
-            },
             {
               "moduleId": "NHaJ",
               "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata.js",
@@ -2196,6 +2187,15 @@
               "type": "cjs require",
               "userRequest": "./_object-gpo",
               "loc": "3:21-45"
+            },
+            {
+              "moduleId": "v3hU",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
+              "module": "./node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
+              "moduleName": "./node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
+              "type": "cjs require",
+              "userRequest": "./_object-gpo",
+              "loc": "5:21-45"
             },
             {
               "moduleId": "8WbS",
@@ -2952,15 +2952,6 @@
               "loc": "1:15-38"
             },
             {
-              "moduleId": "jhxf",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/_dom-create.js",
-              "module": "./node_modules/core-js/modules/_dom-create.js",
-              "moduleName": "./node_modules/core-js/modules/_dom-create.js",
-              "type": "cjs require",
-              "userRequest": "./_is-object",
-              "loc": "1:15-38"
-            },
-            {
               "moduleId": "s4j0",
               "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/_to-primitive.js",
               "module": "./node_modules/core-js/modules/_to-primitive.js",
@@ -2968,6 +2959,15 @@
               "type": "cjs require",
               "userRequest": "./_is-object",
               "loc": "2:15-38"
+            },
+            {
+              "moduleId": "jhxf",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/_dom-create.js",
+              "module": "./node_modules/core-js/modules/_dom-create.js",
+              "moduleName": "./node_modules/core-js/modules/_dom-create.js",
+              "type": "cjs require",
+              "userRequest": "./_is-object",
+              "loc": "1:15-38"
             },
             {
               "moduleId": "gvDt",
@@ -4178,15 +4178,6 @@
               "loc": "2:9-32"
             },
             {
-              "moduleId": "1aA0",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/_meta.js",
-              "module": "./node_modules/core-js/modules/_meta.js",
-              "moduleName": "./node_modules/core-js/modules/_meta.js",
-              "type": "cjs require",
-              "userRequest": "./_object-dp",
-              "loc": "4:14-37"
-            },
-            {
               "moduleId": "2p1q",
               "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/_hide.js",
               "module": "./node_modules/core-js/modules/_hide.js",
@@ -4194,6 +4185,15 @@
               "type": "cjs require",
               "userRequest": "./_object-dp",
               "loc": "1:9-32"
+            },
+            {
+              "moduleId": "1aA0",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/_meta.js",
+              "module": "./node_modules/core-js/modules/_meta.js",
+              "moduleName": "./node_modules/core-js/modules/_meta.js",
+              "type": "cjs require",
+              "userRequest": "./_object-dp",
+              "loc": "4:14-37"
             },
             {
               "moduleId": "CEne",
@@ -4972,13 +4972,22 @@
             0
           ],
           "assets": [],
-          "issuer": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.define-metadata.js",
-          "issuerId": "yJ2x",
-          "issuerName": "./node_modules/core-js/modules/es7.reflect.define-metadata.js",
+          "issuer": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+          "issuerId": "3q4u",
+          "issuerName": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
+            {
+              "moduleId": "3q4u",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+              "module": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+              "moduleName": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+              "type": "cjs require",
+              "userRequest": "./_metadata",
+              "loc": "1:15-37"
+            },
             {
               "moduleId": "yJ2x",
               "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.define-metadata.js",
@@ -4989,10 +4998,10 @@
               "loc": "1:15-37"
             },
             {
-              "moduleId": "3q4u",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.delete-metadata.js",
-              "module": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
-              "moduleName": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+              "moduleId": "NHaJ",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata.js",
+              "module": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
+              "moduleName": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
               "type": "cjs require",
               "userRequest": "./_metadata",
               "loc": "1:15-37"
@@ -5007,10 +5016,10 @@
               "loc": "3:15-37"
             },
             {
-              "moduleId": "NHaJ",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata.js",
-              "module": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
-              "moduleName": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
+              "moduleId": "zZHq",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
+              "module": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
+              "moduleName": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
               "type": "cjs require",
               "userRequest": "./_metadata",
               "loc": "1:15-37"
@@ -5025,19 +5034,19 @@
               "loc": "1:15-37"
             },
             {
-              "moduleId": "yOtE",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
-              "module": "./node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
-              "moduleName": "./node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
+              "moduleId": "8WbS",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-metadata.js",
+              "module": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
+              "moduleName": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
               "type": "cjs require",
               "userRequest": "./_metadata",
               "loc": "1:15-37"
             },
             {
-              "moduleId": "zZHq",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
-              "module": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
-              "moduleName": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
+              "moduleId": "yOtE",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
+              "module": "./node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
+              "moduleName": "./node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
               "type": "cjs require",
               "userRequest": "./_metadata",
               "loc": "1:15-37"
@@ -5050,15 +5059,6 @@
               "type": "cjs require",
               "userRequest": "./_metadata",
               "loc": "1:16-38"
-            },
-            {
-              "moduleId": "8WbS",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-metadata.js",
-              "module": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
-              "moduleName": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
-              "type": "cjs require",
-              "userRequest": "./_metadata",
-              "loc": "1:15-37"
             }
           ],
           "usedExports": true,
@@ -5644,14 +5644,14 @@
       "initial": true,
       "entry": false,
       "extraAsync": false,
-      "size": 1498891,
+      "size": 1498964,
       "names": [
         "main"
       ],
       "files": [
-        "main.e49407ca47ee9abd6bc2.bundle.js"
+        "main.bebd0915de22a8eab166.bundle.js"
       ],
-      "hash": "e49407ca47ee9abd6bc2",
+      "hash": "bebd0915de22a8eab166",
       "parents": [
         3
       ],
@@ -6012,19 +6012,19 @@
               "loc": "2:0-35"
             },
             {
-              "moduleId": "tLDX",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/symbol/rxSubscriber.js",
-              "module": "./node_modules/rxjs/_esm5/symbol/rxSubscriber.js",
-              "moduleName": "./node_modules/rxjs/_esm5/symbol/rxSubscriber.js",
+              "moduleId": "+CnV",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/symbol/observable.js",
+              "module": "./node_modules/rxjs/_esm5/symbol/observable.js",
+              "moduleName": "./node_modules/rxjs/_esm5/symbol/observable.js",
               "type": "harmony import",
               "userRequest": "../util/root",
               "loc": "2:0-36"
             },
             {
-              "moduleId": "+CnV",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/symbol/observable.js",
-              "module": "./node_modules/rxjs/_esm5/symbol/observable.js",
-              "moduleName": "./node_modules/rxjs/_esm5/symbol/observable.js",
+              "moduleId": "tLDX",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/symbol/rxSubscriber.js",
+              "module": "./node_modules/rxjs/_esm5/symbol/rxSubscriber.js",
+              "moduleName": "./node_modules/rxjs/_esm5/symbol/rxSubscriber.js",
               "type": "harmony import",
               "userRequest": "../util/root",
               "loc": "2:0-36"
@@ -6792,19 +6792,19 @@
               "loc": "1:0-34"
             },
             {
-              "moduleId": "+3/4",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/EmptyObservable.js",
-              "module": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
-              "moduleName": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
+              "moduleId": "TILf",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/ScalarObservable.js",
+              "module": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
+              "moduleName": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
               "type": "harmony import",
               "userRequest": "tslib",
               "loc": "1:0-34"
             },
             {
-              "moduleId": "TILf",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/ScalarObservable.js",
-              "module": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
-              "moduleName": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
+              "moduleId": "+3/4",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/EmptyObservable.js",
+              "module": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
+              "moduleName": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
               "type": "harmony import",
               "userRequest": "tslib",
               "loc": "1:0-34"
@@ -7584,19 +7584,19 @@
               "loc": "2:0-43"
             },
             {
-              "moduleId": "+3/4",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/EmptyObservable.js",
-              "module": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
-              "moduleName": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
+              "moduleId": "TILf",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/ScalarObservable.js",
+              "module": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
+              "moduleName": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
               "type": "harmony import",
               "userRequest": "../Observable",
               "loc": "2:0-43"
             },
             {
-              "moduleId": "TILf",
-              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/ScalarObservable.js",
-              "module": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
-              "moduleName": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
+              "moduleId": "+3/4",
+              "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/EmptyObservable.js",
+              "module": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
+              "moduleName": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
               "type": "harmony import",
               "userRequest": "../Observable",
               "loc": "2:0-43"
@@ -8173,7 +8173,7 @@
           "name": "./src/main.ts + 45 modules",
           "index": 1,
           "index2": 87,
-          "size": 768879,
+          "size": 768952,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -8303,54 +8303,54 @@
           ],
           "assets": [
             "Ubuntu-Italic.74ff5313eb42d1034e7d.eot",
-            "Ubuntu-Bold.72c43f14fbd1498c6f7e.eot",
+            "Ubuntu-MediumItalic.a8be49989708508a57dd.eot",
             "Ubuntu-BoldItalic.c2c7cf9d5f39d3079868.eot",
+            "Ubuntu-Bold.72c43f14fbd1498c6f7e.eot",
             "UbuntuCondensed-Regular.031ea262c2898a767e39.eot",
-            "Ubuntu-Medium.d879d2d8193800c01ce5.eot",
             "Ubuntu-Light.6ce3c263a5cdb6fa75e1.eot",
+            "Ubuntu-Medium.d879d2d8193800c01ce5.eot",
             "Ubuntu.9176b717ebda2f28db71.eot",
             "3dumb.b53755a1b541c16bbc74.eot",
-            "Ubuntu-MediumItalic.a8be49989708508a57dd.eot",
             "Ubuntu-LightItalic.6003696b0f276d54d8ec.eot",
             "Ubuntu-Italic.ee5c86c9c343c3a44886.woff2",
-            "Ubuntu-Bold.62701b5c4b7ab2243789.woff2",
             "Ubuntu-BoldItalic.180d4bba90c721d841dd.woff2",
+            "Ubuntu-MediumItalic.55359415547015d4a107.woff2",
+            "Ubuntu-Bold.62701b5c4b7ab2243789.woff2",
             "UbuntuCondensed-Regular.f8605d337141aee09b19.woff2",
-            "Ubuntu-Medium.45d7e58bd239b4992583.woff2",
             "Ubuntu-Light.7f2b2adbc5790ba4583e.woff2",
+            "Ubuntu-Medium.45d7e58bd239b4992583.woff2",
             "Ubuntu.426be866c3445a9da72b.woff2",
             "3dumb.fcbf5d11af761eee7b8c.woff2",
-            "Ubuntu-MediumItalic.55359415547015d4a107.woff2",
             "Ubuntu-LightItalic.2444b1767d7de1eb1735.woff2",
             "Ubuntu-Italic.a0ea00aa564deb1d274f.woff",
-            "Ubuntu-Bold.4044a3c191736a6b352e.woff",
             "Ubuntu-BoldItalic.c424fe8f30891f3fc9dc.woff",
+            "Ubuntu-MediumItalic.4ef2bf5ce57b309bdb7c.woff",
+            "Ubuntu-Bold.4044a3c191736a6b352e.woff",
             "UbuntuCondensed-Regular.470167cc23f2a6a88e79.woff",
-            "Ubuntu-Medium.27205ded1f646a52e80d.woff",
             "Ubuntu-Light.620afaea42177d45f21d.woff",
+            "Ubuntu-Medium.27205ded1f646a52e80d.woff",
             "Ubuntu.0fb2fa8320c87e4dac45.woff",
             "3dumb.8a1ffeab1eb0d8439421.woff",
-            "Ubuntu-MediumItalic.4ef2bf5ce57b309bdb7c.woff",
             "Ubuntu-LightItalic.da2d38e7f36ec154f982.woff",
-            "Ubuntu-Bold.3380cc72a19e2dda5e51.ttf",
-            "Ubuntu-Italic.e7413f5c81d272120225.ttf",
-            "UbuntuCondensed-Regular.c320b75f91337efd6311.ttf",
             "Ubuntu-BoldItalic.8404c7ddcb89cc5e8b52.ttf",
-            "Ubuntu-Medium.c5cf38e4e65a54bea575.ttf",
-            "Ubuntu.f0aa00a911dffe172346.ttf",
-            "3dumb.109d1b5328da87535842.ttf",
-            "Ubuntu-Light.435614cbe85f0692eed3.ttf",
             "Ubuntu-MediumItalic.716d382aaa13a52af89b.ttf",
+            "Ubuntu-Bold.3380cc72a19e2dda5e51.ttf",
+            "UbuntuCondensed-Regular.c320b75f91337efd6311.ttf",
+            "Ubuntu-Medium.c5cf38e4e65a54bea575.ttf",
+            "Ubuntu-Light.435614cbe85f0692eed3.ttf",
+            "Ubuntu-Italic.e7413f5c81d272120225.ttf",
+            "3dumb.109d1b5328da87535842.ttf",
+            "Ubuntu.f0aa00a911dffe172346.ttf",
             "Ubuntu-LightItalic.df1b381712a63b9cd71c.ttf",
-            "Ubuntu-Bold.0f500218f67f58bf3c24.svg",
-            "Ubuntu-Italic.4a9df1956c6819dc5a7a.svg",
-            "UbuntuCondensed-Regular.0f817aa0c88b2dde25be.svg",
-            "Ubuntu-Medium.e49e4b9f4119211196b4.svg",
-            "Ubuntu.6c5b08d0605dfd16d9a4.svg",
-            "Ubuntu-BoldItalic.4984f44754515fd799a8.svg",
-            "Ubuntu-Light.769d74a5108ffe4780df.svg",
             "Ubuntu-MediumItalic.7bba028fc438ac056fe2.svg",
+            "UbuntuCondensed-Regular.0f817aa0c88b2dde25be.svg",
+            "Ubuntu-BoldItalic.4984f44754515fd799a8.svg",
+            "Ubuntu-Bold.0f500218f67f58bf3c24.svg",
+            "Ubuntu-Medium.e49e4b9f4119211196b4.svg",
+            "Ubuntu-Light.769d74a5108ffe4780df.svg",
+            "Ubuntu-Italic.4a9df1956c6819dc5a7a.svg",
             "3dumb.cd617f5fbccad134224f.svg",
+            "Ubuntu.6c5b08d0605dfd16d9a4.svg",
             "Ubuntu-LightItalic.0381edb8709f283faca8.svg"
           ],
           "issuer": "multi /Users/mauroaguilar/Desktop/git/mauro/web/front-end/src/styles.scss",
@@ -9400,19 +9400,19 @@
           "loc": "2:0-35"
         },
         {
-          "moduleId": "tLDX",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/symbol/rxSubscriber.js",
-          "module": "./node_modules/rxjs/_esm5/symbol/rxSubscriber.js",
-          "moduleName": "./node_modules/rxjs/_esm5/symbol/rxSubscriber.js",
+          "moduleId": "+CnV",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/symbol/observable.js",
+          "module": "./node_modules/rxjs/_esm5/symbol/observable.js",
+          "moduleName": "./node_modules/rxjs/_esm5/symbol/observable.js",
           "type": "harmony import",
           "userRequest": "../util/root",
           "loc": "2:0-36"
         },
         {
-          "moduleId": "+CnV",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/symbol/observable.js",
-          "module": "./node_modules/rxjs/_esm5/symbol/observable.js",
-          "moduleName": "./node_modules/rxjs/_esm5/symbol/observable.js",
+          "moduleId": "tLDX",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/symbol/rxSubscriber.js",
+          "module": "./node_modules/rxjs/_esm5/symbol/rxSubscriber.js",
+          "moduleName": "./node_modules/rxjs/_esm5/symbol/rxSubscriber.js",
           "type": "harmony import",
           "userRequest": "../util/root",
           "loc": "2:0-36"
@@ -9670,13 +9670,22 @@
         0
       ],
       "assets": [],
-      "issuer": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.define-metadata.js",
-      "issuerId": "yJ2x",
-      "issuerName": "./node_modules/core-js/modules/es7.reflect.define-metadata.js",
+      "issuer": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+      "issuerId": "3q4u",
+      "issuerName": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
+        {
+          "moduleId": "3q4u",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+          "module": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+          "moduleName": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+          "type": "cjs require",
+          "userRequest": "./_an-object",
+          "loc": "2:15-38"
+        },
         {
           "moduleId": "yJ2x",
           "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.define-metadata.js",
@@ -9687,10 +9696,10 @@
           "loc": "2:15-38"
         },
         {
-          "moduleId": "3q4u",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.delete-metadata.js",
-          "module": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
-          "moduleName": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+          "moduleId": "NHaJ",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata.js",
+          "module": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
+          "moduleName": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
           "type": "cjs require",
           "userRequest": "./_an-object",
           "loc": "2:15-38"
@@ -9705,10 +9714,10 @@
           "loc": "4:15-38"
         },
         {
-          "moduleId": "NHaJ",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata.js",
-          "module": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
-          "moduleName": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
+          "moduleId": "zZHq",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
+          "module": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
+          "moduleName": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
           "type": "cjs require",
           "userRequest": "./_an-object",
           "loc": "2:15-38"
@@ -9723,6 +9732,15 @@
           "loc": "2:15-38"
         },
         {
+          "moduleId": "8WbS",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-metadata.js",
+          "module": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
+          "moduleName": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
+          "type": "cjs require",
+          "userRequest": "./_an-object",
+          "loc": "2:15-38"
+        },
+        {
           "moduleId": "yOtE",
           "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
           "module": "./node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
@@ -9732,28 +9750,10 @@
           "loc": "2:15-38"
         },
         {
-          "moduleId": "zZHq",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
-          "module": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
-          "moduleName": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
-          "type": "cjs require",
-          "userRequest": "./_an-object",
-          "loc": "2:15-38"
-        },
-        {
           "moduleId": "EZ+5",
           "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.metadata.js",
           "module": "./node_modules/core-js/modules/es7.reflect.metadata.js",
           "moduleName": "./node_modules/core-js/modules/es7.reflect.metadata.js",
-          "type": "cjs require",
-          "userRequest": "./_an-object",
-          "loc": "2:15-38"
-        },
-        {
-          "moduleId": "8WbS",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-metadata.js",
-          "module": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
-          "moduleName": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
           "type": "cjs require",
           "userRequest": "./_an-object",
           "loc": "2:15-38"
@@ -10237,22 +10237,13 @@
         0
       ],
       "assets": [],
-      "issuer": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
-      "issuerId": "v3hU",
-      "issuerName": "./node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
+      "issuer": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata.js",
+      "issuerId": "NHaJ",
+      "issuerName": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "v3hU",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
-          "module": "./node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
-          "moduleName": "./node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
-          "type": "cjs require",
-          "userRequest": "./_object-gpo",
-          "loc": "5:21-45"
-        },
         {
           "moduleId": "NHaJ",
           "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata.js",
@@ -10261,6 +10252,15 @@
           "type": "cjs require",
           "userRequest": "./_object-gpo",
           "loc": "3:21-45"
+        },
+        {
+          "moduleId": "v3hU",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
+          "module": "./node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
+          "moduleName": "./node_modules/core-js/modules/es7.reflect.get-metadata-keys.js",
+          "type": "cjs require",
+          "userRequest": "./_object-gpo",
+          "loc": "5:21-45"
         },
         {
           "moduleId": "8WbS",
@@ -11487,19 +11487,19 @@
           "loc": "1:0-34"
         },
         {
-          "moduleId": "+3/4",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/EmptyObservable.js",
-          "module": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
-          "moduleName": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
+          "moduleId": "TILf",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/ScalarObservable.js",
+          "module": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
+          "moduleName": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
           "type": "harmony import",
           "userRequest": "tslib",
           "loc": "1:0-34"
         },
         {
-          "moduleId": "TILf",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/ScalarObservable.js",
-          "module": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
-          "moduleName": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
+          "moduleId": "+3/4",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/EmptyObservable.js",
+          "module": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
+          "moduleName": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
           "type": "harmony import",
           "userRequest": "tslib",
           "loc": "1:0-34"
@@ -11800,15 +11800,6 @@
           "loc": "1:15-38"
         },
         {
-          "moduleId": "jhxf",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/_dom-create.js",
-          "module": "./node_modules/core-js/modules/_dom-create.js",
-          "moduleName": "./node_modules/core-js/modules/_dom-create.js",
-          "type": "cjs require",
-          "userRequest": "./_is-object",
-          "loc": "1:15-38"
-        },
-        {
           "moduleId": "s4j0",
           "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/_to-primitive.js",
           "module": "./node_modules/core-js/modules/_to-primitive.js",
@@ -11816,6 +11807,15 @@
           "type": "cjs require",
           "userRequest": "./_is-object",
           "loc": "2:15-38"
+        },
+        {
+          "moduleId": "jhxf",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/_dom-create.js",
+          "module": "./node_modules/core-js/modules/_dom-create.js",
+          "moduleName": "./node_modules/core-js/modules/_dom-create.js",
+          "type": "cjs require",
+          "userRequest": "./_is-object",
+          "loc": "1:15-38"
         },
         {
           "moduleId": "gvDt",
@@ -11860,54 +11860,54 @@
       ],
       "assets": [
         "Ubuntu-Italic.74ff5313eb42d1034e7d.eot",
-        "Ubuntu-Bold.72c43f14fbd1498c6f7e.eot",
+        "Ubuntu-MediumItalic.a8be49989708508a57dd.eot",
         "Ubuntu-BoldItalic.c2c7cf9d5f39d3079868.eot",
+        "Ubuntu-Bold.72c43f14fbd1498c6f7e.eot",
         "UbuntuCondensed-Regular.031ea262c2898a767e39.eot",
-        "Ubuntu-Medium.d879d2d8193800c01ce5.eot",
         "Ubuntu-Light.6ce3c263a5cdb6fa75e1.eot",
+        "Ubuntu-Medium.d879d2d8193800c01ce5.eot",
         "Ubuntu.9176b717ebda2f28db71.eot",
         "3dumb.b53755a1b541c16bbc74.eot",
-        "Ubuntu-MediumItalic.a8be49989708508a57dd.eot",
         "Ubuntu-LightItalic.6003696b0f276d54d8ec.eot",
         "Ubuntu-Italic.ee5c86c9c343c3a44886.woff2",
-        "Ubuntu-Bold.62701b5c4b7ab2243789.woff2",
         "Ubuntu-BoldItalic.180d4bba90c721d841dd.woff2",
+        "Ubuntu-MediumItalic.55359415547015d4a107.woff2",
+        "Ubuntu-Bold.62701b5c4b7ab2243789.woff2",
         "UbuntuCondensed-Regular.f8605d337141aee09b19.woff2",
-        "Ubuntu-Medium.45d7e58bd239b4992583.woff2",
         "Ubuntu-Light.7f2b2adbc5790ba4583e.woff2",
+        "Ubuntu-Medium.45d7e58bd239b4992583.woff2",
         "Ubuntu.426be866c3445a9da72b.woff2",
         "3dumb.fcbf5d11af761eee7b8c.woff2",
-        "Ubuntu-MediumItalic.55359415547015d4a107.woff2",
         "Ubuntu-LightItalic.2444b1767d7de1eb1735.woff2",
         "Ubuntu-Italic.a0ea00aa564deb1d274f.woff",
-        "Ubuntu-Bold.4044a3c191736a6b352e.woff",
         "Ubuntu-BoldItalic.c424fe8f30891f3fc9dc.woff",
+        "Ubuntu-MediumItalic.4ef2bf5ce57b309bdb7c.woff",
+        "Ubuntu-Bold.4044a3c191736a6b352e.woff",
         "UbuntuCondensed-Regular.470167cc23f2a6a88e79.woff",
-        "Ubuntu-Medium.27205ded1f646a52e80d.woff",
         "Ubuntu-Light.620afaea42177d45f21d.woff",
+        "Ubuntu-Medium.27205ded1f646a52e80d.woff",
         "Ubuntu.0fb2fa8320c87e4dac45.woff",
         "3dumb.8a1ffeab1eb0d8439421.woff",
-        "Ubuntu-MediumItalic.4ef2bf5ce57b309bdb7c.woff",
         "Ubuntu-LightItalic.da2d38e7f36ec154f982.woff",
-        "Ubuntu-Bold.3380cc72a19e2dda5e51.ttf",
-        "Ubuntu-Italic.e7413f5c81d272120225.ttf",
-        "UbuntuCondensed-Regular.c320b75f91337efd6311.ttf",
         "Ubuntu-BoldItalic.8404c7ddcb89cc5e8b52.ttf",
-        "Ubuntu-Medium.c5cf38e4e65a54bea575.ttf",
-        "Ubuntu.f0aa00a911dffe172346.ttf",
-        "3dumb.109d1b5328da87535842.ttf",
-        "Ubuntu-Light.435614cbe85f0692eed3.ttf",
         "Ubuntu-MediumItalic.716d382aaa13a52af89b.ttf",
+        "Ubuntu-Bold.3380cc72a19e2dda5e51.ttf",
+        "UbuntuCondensed-Regular.c320b75f91337efd6311.ttf",
+        "Ubuntu-Medium.c5cf38e4e65a54bea575.ttf",
+        "Ubuntu-Light.435614cbe85f0692eed3.ttf",
+        "Ubuntu-Italic.e7413f5c81d272120225.ttf",
+        "3dumb.109d1b5328da87535842.ttf",
+        "Ubuntu.f0aa00a911dffe172346.ttf",
         "Ubuntu-LightItalic.df1b381712a63b9cd71c.ttf",
-        "Ubuntu-Bold.0f500218f67f58bf3c24.svg",
-        "Ubuntu-Italic.4a9df1956c6819dc5a7a.svg",
-        "UbuntuCondensed-Regular.0f817aa0c88b2dde25be.svg",
-        "Ubuntu-Medium.e49e4b9f4119211196b4.svg",
-        "Ubuntu.6c5b08d0605dfd16d9a4.svg",
-        "Ubuntu-BoldItalic.4984f44754515fd799a8.svg",
-        "Ubuntu-Light.769d74a5108ffe4780df.svg",
         "Ubuntu-MediumItalic.7bba028fc438ac056fe2.svg",
+        "UbuntuCondensed-Regular.0f817aa0c88b2dde25be.svg",
+        "Ubuntu-BoldItalic.4984f44754515fd799a8.svg",
+        "Ubuntu-Bold.0f500218f67f58bf3c24.svg",
+        "Ubuntu-Medium.e49e4b9f4119211196b4.svg",
+        "Ubuntu-Light.769d74a5108ffe4780df.svg",
+        "Ubuntu-Italic.4a9df1956c6819dc5a7a.svg",
         "3dumb.cd617f5fbccad134224f.svg",
+        "Ubuntu.6c5b08d0605dfd16d9a4.svg",
         "Ubuntu-LightItalic.0381edb8709f283faca8.svg"
       ],
       "issuer": "multi /Users/mauroaguilar/Desktop/git/mauro/web/front-end/src/styles.scss",
@@ -12959,19 +12959,19 @@
           "loc": "2:0-43"
         },
         {
-          "moduleId": "+3/4",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/EmptyObservable.js",
-          "module": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
-          "moduleName": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
+          "moduleId": "TILf",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/ScalarObservable.js",
+          "module": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
+          "moduleName": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
           "type": "harmony import",
           "userRequest": "../Observable",
           "loc": "2:0-43"
         },
         {
-          "moduleId": "TILf",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/ScalarObservable.js",
-          "module": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
-          "moduleName": "./node_modules/rxjs/_esm5/observable/ScalarObservable.js",
+          "moduleId": "+3/4",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/rxjs/_esm5/observable/EmptyObservable.js",
+          "module": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
+          "moduleName": "./node_modules/rxjs/_esm5/observable/EmptyObservable.js",
           "type": "harmony import",
           "userRequest": "../Observable",
           "loc": "2:0-43"
@@ -14073,15 +14073,6 @@
           "loc": "2:9-32"
         },
         {
-          "moduleId": "1aA0",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/_meta.js",
-          "module": "./node_modules/core-js/modules/_meta.js",
-          "moduleName": "./node_modules/core-js/modules/_meta.js",
-          "type": "cjs require",
-          "userRequest": "./_object-dp",
-          "loc": "4:14-37"
-        },
-        {
           "moduleId": "2p1q",
           "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/_hide.js",
           "module": "./node_modules/core-js/modules/_hide.js",
@@ -14089,6 +14080,15 @@
           "type": "cjs require",
           "userRequest": "./_object-dp",
           "loc": "1:9-32"
+        },
+        {
+          "moduleId": "1aA0",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/_meta.js",
+          "module": "./node_modules/core-js/modules/_meta.js",
+          "moduleName": "./node_modules/core-js/modules/_meta.js",
+          "type": "cjs require",
+          "userRequest": "./_object-dp",
+          "loc": "4:14-37"
         },
         {
           "moduleId": "CEne",
@@ -15030,13 +15030,22 @@
         0
       ],
       "assets": [],
-      "issuer": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.define-metadata.js",
-      "issuerId": "yJ2x",
-      "issuerName": "./node_modules/core-js/modules/es7.reflect.define-metadata.js",
+      "issuer": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+      "issuerId": "3q4u",
+      "issuerName": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
+        {
+          "moduleId": "3q4u",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+          "module": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+          "moduleName": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+          "type": "cjs require",
+          "userRequest": "./_metadata",
+          "loc": "1:15-37"
+        },
         {
           "moduleId": "yJ2x",
           "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.define-metadata.js",
@@ -15047,10 +15056,10 @@
           "loc": "1:15-37"
         },
         {
-          "moduleId": "3q4u",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.delete-metadata.js",
-          "module": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
-          "moduleName": "./node_modules/core-js/modules/es7.reflect.delete-metadata.js",
+          "moduleId": "NHaJ",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata.js",
+          "module": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
+          "moduleName": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
           "type": "cjs require",
           "userRequest": "./_metadata",
           "loc": "1:15-37"
@@ -15065,10 +15074,10 @@
           "loc": "3:15-37"
         },
         {
-          "moduleId": "NHaJ",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-metadata.js",
-          "module": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
-          "moduleName": "./node_modules/core-js/modules/es7.reflect.get-metadata.js",
+          "moduleId": "zZHq",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
+          "module": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
+          "moduleName": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
           "type": "cjs require",
           "userRequest": "./_metadata",
           "loc": "1:15-37"
@@ -15083,19 +15092,19 @@
           "loc": "1:15-37"
         },
         {
-          "moduleId": "yOtE",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
-          "module": "./node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
-          "moduleName": "./node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
+          "moduleId": "8WbS",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-metadata.js",
+          "module": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
+          "moduleName": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
           "type": "cjs require",
           "userRequest": "./_metadata",
           "loc": "1:15-37"
         },
         {
-          "moduleId": "zZHq",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
-          "module": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
-          "moduleName": "./node_modules/core-js/modules/es7.reflect.get-own-metadata.js",
+          "moduleId": "yOtE",
+          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
+          "module": "./node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
+          "moduleName": "./node_modules/core-js/modules/es7.reflect.has-own-metadata.js",
           "type": "cjs require",
           "userRequest": "./_metadata",
           "loc": "1:15-37"
@@ -15108,15 +15117,6 @@
           "type": "cjs require",
           "userRequest": "./_metadata",
           "loc": "1:16-38"
-        },
-        {
-          "moduleId": "8WbS",
-          "moduleIdentifier": "/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/cache-loader/dist/cjs.js??ref--3-0!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/@angular-devkit/build-optimizer/src/build-optimizer/webpack-loader.js??ref--3-1!/Users/mauroaguilar/Desktop/git/mauro/web/front-end/node_modules/core-js/modules/es7.reflect.has-metadata.js",
-          "module": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
-          "moduleName": "./node_modules/core-js/modules/es7.reflect.has-metadata.js",
-          "type": "cjs require",
-          "userRequest": "./_metadata",
-          "loc": "1:15-37"
         }
       ],
       "usedExports": true,
@@ -15133,7 +15133,7 @@
       "name": "./src/main.ts + 45 modules",
       "index": 1,
       "index2": 87,
-      "size": 768879,
+      "size": 768952,
       "cacheable": true,
       "built": true,
       "optional": false,

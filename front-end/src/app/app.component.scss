@@ -9,11 +9,14 @@ section.name {
     }
   }
   h1 {
-    line-height: 8.1rem;
-    font-size: $unit*3;
-    color: $color__navy;
     @extend %f3dumb--regular;
+    font-size: $unit*3;
+    line-height: 8.1rem;
+    color: $color__navy;
     margin: 0;
+    @include bp-until($breakpoint__sm) {
+      font-size: $unit*2;
+    }
   }
   img {
     width: 8em;
