@@ -1,0 +1,29 @@
+@import "~sass/base/_vars";
+@import "~sass/base/_fonts";
+@import "~sass/base/mixin-breakpoints";
+section.name {
+  a:hover {
+    .filter {
+      -webkit-filter: grayscale(50%);
+      filter: grayscale(50%);
+    }
+  }
+  h1 {
+    line-height: 8.1rem;
+    font-size: $unit*3;
+    color: $color__navy;
+    @extend %f3dumb--regular;
+    margin: 0;
+  }
+  img {
+    width: 8em;
+    border-radius: 10px;
+    @include bp-until($breakpoint__sm) {
+      float: none;
+    }
+  }
+}
+
+a.more {
+  margin-left: 2em;
+}
