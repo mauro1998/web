@@ -11,9 +11,11 @@ section.name {
   h1 {
     @extend %f3dumb--regular;
     font-size: $unit*3;
-    line-height: 8.1rem;
     color: $color__navy;
     margin: 0;
+    @include bp-at-least($breakpoint__sm) {
+      line-height: 8.1rem;
+    }
     @include bp-until($breakpoint__sm) {
       font-size: $unit*2;
     }
