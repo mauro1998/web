@@ -1,0 +1,76 @@
+{
+  "firstName": "Mauro",
+  "lastName": "Aguilar",
+  "title": "Frontend Software Developer",
+  "picture": "assets/images/foto.jpg",
+  "birthdate": "02/26/1998",
+  "description": "Fullstack developer and analyst of information systems with 4 years of experience in the field. An expert in client side solutions and problem solving with a wide and comprehensive knowledge of web development tools, agile methodologies and programming languages.",
+  "address": {
+    "city": "Medellín",
+    "state": "Antioquia",
+    "country": "Colombia"
+  },
+  "workExperience": [
+    {
+      "company": "Victory Productions",
+      "roles": ["Fullstack Developer", "Project Lead"],
+      "description": "During my time in this company I had the opportunity to work on several e-learning projects, delivering beautiful, mobile-friendly and dynamic content to the final users. I learned a lot about front-end technologies, agile methodologies and the Javascript ecosystem during this period of time.",
+      "time": "2 years"
+    },
+    {
+      "company": "Linden Colombia",
+      "roles": ["Fullstack Developer"],
+      "description": "During my time in this company I had the opportunity to work on several e-learning projects, delivering beautiful, mobile-friendly and dynamic content to the final users. I learned a lot about front-end technologies, agile methodologies and the Javascript ecosystem during this period of time.",
+      "time": "1 year"
+    }
+  ],
+  "education": [
+    {
+      "entityName": "SENA",
+      "degree": "Bachelor of technology in analysis and development of information systems"
+    },
+    {
+      "entityName": "SENA",
+      "degree": "Bachelor of technical management of computer systems"
+    }
+  ],
+  "skills": [
+    "Javascript",
+    "Angular",
+    "Game Development",
+    "E-Learning Products Development",
+    "OOP Mindset",
+    "Functional Programming",
+    "Relational DB Modelling",
+    "Agile Methodologies | SCRUM",
+    "Algorithms",
+    "CSS3",
+    "HTML5",
+    "Pixi.js",
+    "Phaser",
+    "SASS",
+    "Git",
+    "Three.js",
+    "Typescript",
+    "Rxjs",
+    "Redux",
+    "Backbone.js",
+    "jQuery",
+    "Nodejs",
+    "MongoDB",
+    "PHP"
+  ],
+  "contact": {
+    "email": "mauro_aguilar98@hotmail.com",
+    "phoneNumber": "(+57) 305 753 3481"
+  },
+  "socialNetworks": {
+    "linkedin": "https://www.linkedin.com/in/mauro-aguilar",
+    "pinterest": "https://co.pinterest.com/aguibusta98/",
+    "stackoverflow": "https://stackoverflow.com/users/6754109/mauro-aguilar",
+    "github": "https://github.com/mauro1998",
+    "twitter": "https://twitter.com/aguirara98?lang=es",
+    "facebook": "https://www.facebook.com/mauro.xx98",
+    "instagram": "https://www.instagram.com/mauro_x98/?hl=es-la"
+  }
+}

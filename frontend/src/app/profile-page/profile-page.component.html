@@ -1,0 +1,13 @@
+<ng-container *ngIf="state$ | async as state">
+  <ng-container *ngIf="state.loading">
+    loading profile...
+  </ng-container>
+
+  <ng-container *ngIf="state.data">
+    <app-profile [profile]="state.data"></app-profile>
+  </ng-container>
+
+  <ng-container *ngIf="state.error">
+    {{state.error}}
+  </ng-container>
+</ng-container>

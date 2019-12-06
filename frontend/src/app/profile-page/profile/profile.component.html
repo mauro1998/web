@@ -1,0 +1,125 @@
+<section class="name">
+  <div class="container">
+    <div class="block--ends">
+      <a href="/">
+        <img class="img--left filter"
+             [src]="profile.picture"
+             draggable="false"
+             alt="Profile picture">
+        <h1>{{profile.fullName}}</h1>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="block">
+      <a *ngFor="let socialNetwork of socialNetworks"
+         [ngClass]="'social' + socialNetwork.name"
+         [href]="socialNetwork.link"
+         target="_blank"></a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h3>
+      <span class="hash">##</span>
+      About Me
+    </h3>
+    <p>
+      <span *ngIf="profile.address.country === 'Colombia'">
+        <img class="img--natural"
+             src="assets/images/flag.png"
+             draggable="false"
+             alt="Colombian flag"> —
+      </span>
+      {{profile.address.city}}, {{profile.address.state}}
+      <span *ngIf="profile.address.country !== 'Colombia'">— {{profile.address.country}}</span>
+      <br>
+      <br>
+      <strong>{{profile.fullName}}</strong>
+      <br> {{profile.age}} years old
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h3>
+      <span class="hash">##</span>
+      Professional Profile
+    </h3>
+    <p>{{profile.description}}</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h3>
+      <span class="hash">##</span>
+      Work Experience
+    </h3>
+    <ul>
+      <li *ngFor="let experience of profile.workExperience">
+        {{experience.roles.join(' & ')}} at {{experience.company}} — {{experience.time}}
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h3>
+      <span class="hash">##</span>
+      Education
+    </h3>
+    <ul>
+      <li *ngFor="let education of profile.education">
+        {{education.degree}} — {{education.entityName}}.
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h3>
+      <span class="hash">##</span>
+      Skills
+    </h3>
+    <ul>
+      <li *ngFor="let skill of skillset">
+        {{skill}}
+      </li>
+    </ul>
+    <p>
+      <a class="link more"
+         (click)="toggleSkills()">
+        Show {{ showAllSkills ? 'less' : 'more' }}
+      </a>
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h3>
+      <span class="hash">##</span>
+      Contact Me
+    </h3>
+    <p>
+      <a class="link"
+         href="mailto:{{profile.contact.email}}">[ {{profile.contact.email}} ]</a>
+      <br> {{profile.contact.phoneNumber}}
+    </p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="block--ends">
+    &copy; {{year}}, {{profile.fullName}}.
+  </div>
+</div>
