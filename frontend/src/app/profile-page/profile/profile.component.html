@@ -16,7 +16,7 @@
   <div class="container">
     <div class="block">
       <a *ngFor="let socialNetwork of socialNetworks"
-         [ngClass]="'social' + socialNetwork.name"
+         [ngClass]="'social ' + socialNetwork.name"
          [href]="socialNetwork.link"
          target="_blank"></a>
     </div>
