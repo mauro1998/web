@@ -5,6 +5,21 @@ aside.sidebar {
   padding: 2rem;
 }
 
+@media screen and (max-width: 679px) {
+  aside.sidebar {
+    width: 100%;
+  }
+
+  img.photo {
+    max-width: 10rem;
+    margin: auto;
+  }
+
+  aside.sidebar section:first-child {
+    text-align: center;
+  }
+}
+
 img.photo {
   display: block;
   width: 100%;

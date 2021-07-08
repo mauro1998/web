@@ -7,6 +7,12 @@
   background-color: #fff;
 }
 
+@media screen and (max-width: 679px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
 section {
   margin-bottom: 2rem;
 }
