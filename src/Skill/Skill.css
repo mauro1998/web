@@ -1,0 +1,11 @@
+div.skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span.skill-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  color: #888;
+}

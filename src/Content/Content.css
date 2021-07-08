@@ -1,0 +1,25 @@
+main.content {
+  flex: 1;
+  display: block;
+  padding: 2rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex .col {
+  flex: 1;
+}
+
+@media print {
+  #placester {
+    margin-top: 15rem;
+    padding-top: 1.5rem;
+  }
+
+  main.content {
+    padding: 1.5rem;
+  }
+}

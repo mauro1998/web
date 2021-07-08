@@ -1,0 +1,48 @@
+.education-tile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.education-tile-img {
+  width: 50px;
+  height: auto;
+  position: relative;
+  top: 5px;
+}
+
+.education-tile-content {
+  margin-left: 1rem;
+}
+
+.education-tile-title {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.education-tile-company {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #555;
+  line-height: 1.3;
+}
+
+.education-tile-time,
+.education-tile-location {
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+.education-tile-description {
+  font-size: 0.8rem;
+  line-height: 1.3;
+  color: #555;
+}
+
+@media print {
+  .education-tile {
+    margin-bottom: 0.7rem;
+  }
+}

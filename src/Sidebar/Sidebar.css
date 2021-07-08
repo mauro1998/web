@@ -1,0 +1,30 @@
+aside.sidebar {
+  position: relative;
+  width: 280px;
+  background: #f6f6f6;
+  padding: 2rem;
+}
+
+img.photo {
+  display: block;
+  width: 100%;
+  filter: grayscale(100%);
+  margin-bottom: 1rem;
+}
+
+@media print {
+  #industry-knowledge {
+    margin-top: 15rem;
+    padding-top: 1.5rem;
+  }
+
+  aside.sidebar {
+    padding: 1.5rem;
+  }
+}
+
+hr {
+  display: block;
+  border-top: 1px solid #bbb;
+  margin: 1rem 0;
+}
