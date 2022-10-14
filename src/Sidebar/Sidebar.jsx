@@ -5,14 +5,13 @@ import IconText from "../IconText";
 import Skill from "../Skill";
 import "./Sidebar.css";
 
-const Sidebar = ({}) => {
+const Sidebar = () => {
   return (
     <aside className="sidebar">
       <section>
         <img className="photo" src={foto} alt="foto" />
-        <Heading>Mauro Aguilar Bustamante</Heading>
+        <Heading>Mauro Aguilar</Heading>
         <IconText icon="email">mauro_aguilar98@hotmail.com</IconText>
-        <IconText icon="smartphone">(+57) 305 753 3481</IconText>
         <IconText icon="place">Bello, Antioquia, Colombia</IconText>
       </section>
 
@@ -29,17 +28,17 @@ const Sidebar = ({}) => {
         <Skill stars={5}>Javascript</Skill>
         <Skill stars={5}>HTML5</Skill>
         <Skill stars={5}>CSS3</Skill>
+        <Skill stars={5}>Angular</Skill>
         <Skill stars={5}>Typescript</Skill>
-        <Skill stars={4.5}>Angular (2+)</Skill>
-        <Skill stars={4.5}>Rx JS</Skill>
-        <Skill stars={4.5}>Redux</Skill>
-        <Skill stars={4}>SASS</Skill>
-        <Skill stars={4}>React JS</Skill>
+        <Skill stars={5}>Rxjs</Skill>
+        <Skill stars={5}>Redux</Skill>
+        <Skill stars={4.5}>React.js</Skill>
+        <Skill stars={4.5}>SASS</Skill>
+        <Skill stars={4}>Node.js</Skill>
         <Skill stars={4}>Jest</Skill>
-        <Skill stars={3.5}>Backbone JS</Skill>
-        <Skill stars={3.5}>Node JS</Skill>
-        <Skill stars={3.5}>Flutter</Skill>
-        <Skill stars={3.5}>Dart</Skill>
+        <Skill stars={3.5}>Backbone.js</Skill>
+        <Skill stars={2.5}>Flutter</Skill>
+        <Skill stars={2.5}>Dart</Skill>
       </section>
 
       <section id="industry-knowledge">

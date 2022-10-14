@@ -1,6 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
-import "./Heading.css";
+import React from 'react';
+import './Heading.css';
 
 const Heading = ({ children }) => {
   return <h2 className="heading">{children}</h2>;

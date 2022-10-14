@@ -9,11 +9,7 @@ const Skill = ({ children, stars }) => {
 
   for (let i = 1; i <= total; i++) {
     if (i <= rated) {
-      icons.push("star");
-      // if (stars % 1 !== 0 && rated === i + 2) {
-      //
-      // } else if (i < rated) {
-      // }
+      icons.push('star');
     } else if (rated < i && Math.round(rated) === i) {
       icons.push("star_half");
     } else {
