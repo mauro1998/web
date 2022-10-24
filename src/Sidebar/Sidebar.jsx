@@ -1,5 +1,5 @@
 import React from "react";
-import foto from "../foto.jpg";
+import foto from '../images/foto.png';
 import Heading from "../Heading";
 import IconText from "../IconText";
 import Skill from "../Skill";

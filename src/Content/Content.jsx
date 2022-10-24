@@ -105,6 +105,7 @@ const Content = () => {
         </WorkExpTile>
 
         <WorkExpTile
+          id="placester"
           src={placester}
           title="Frontend Developer"
           company="Placester, Inc."
